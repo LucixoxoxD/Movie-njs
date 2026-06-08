@@ -32,7 +32,7 @@ export default function MovieCard({ movie }) {
         <div className="flex items-center justify-between mt-auto pt-3">
           <div className="flex items-center gap-3">
             <span className="text-yellow-400 text-sm">⭐ {movie.rating}</span>
-            <span className="text-green-400 text-sm">${movie.price}</span>
+            <span className="text-green-400 text-sm">₹{movie.price}</span>
           </div>
 
           <Link
